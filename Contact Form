@@ -1,4 +1,26 @@
 <!DOCTYPE html>
 <html>
-<
+<meta name="viewport" content="width=device width, initial-scale=1">
+<head>
+<body>
+<title></title>
+<h1>Contact Us Page For Buying a Ticket </h1>
+<form action="/action_page.php"> 
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="Nah'Teash"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Dorsey"><br<br>
+<label for="country">Country</label>
+<select id="country" name="country">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+</select>
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Write something.."
+style="height:170px"></textarea>
+<input type="submit" value="Submit">
+</form>
+</body>
+</head>
 </html>
